@@ -42,7 +42,7 @@ app.post("/", function(req, res) {
     url: "https://us4.api.mailchimp.com/3.0/lists/475a577204",
     method: "POST",
     headers: {
-      "Authorization": 'Hany_Soliman 34a9e840118dfe862a54d97a16025ee1-us4'
+      "Authorization": 'xxx'
     },
     body: jsonData
   };
@@ -71,6 +71,3 @@ app.listen(process.env.PORT || 3000, function(req, res) {
 
 
 
-// 475a577204
-
-// 34a9e840118dfe862a54d97a16025ee1-us4
